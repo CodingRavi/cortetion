@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="x-apple-disable-message-reformatting" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<!-- style -->
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-size:15px; 
+        font-family:'Verdana',Geneva,sans-serif; 
+        color:black;
+    }
+    html,body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        width: 98%;
+        height: 98%;
+        /* background-color: rgb(255, 251, 246); */
+        border: 2px solid rgb(0, 0, 0);
+        padding: 30px;
+    }
+    .details{
+        width: 300px;
+    }
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        width: 150px;
+
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <b>Dear {{doc.contact_person}},</b>
+        <br>
+        <br>
+        <b>Greetings from Soltech Solutions……!!!</b>
+        <br>
+        <br>
+        <p>As per our discussion at your Woks, we are pleased to forward you the best possible <b>{{doc.subject}}</b> at your works.with reference of <b>Quotation No :{{doc.name}}.</b></p><br>
+        <p>We would be positively looking forward for your valued order.</p><br>
+        <p>In any case of query please feel free to call us or email us.</p>
+        <br><br>
+        <div class="details">
+            <p>Regards,</p>
+            <p>Sales Team</p>
+            <p>SOLTECH Solutions</p>
+            <p>S1, MultiLevel Shed,3rd Phase GIDC, Umbergaon-396171</p>
+            <p>sales@soltechsolutions.in</p>
+            <p>www.soltechsolutions.in</p>
+            <p>+919723723322</p>
+        </div>
+        <div class="contact">
+            <a target="_blank" href="https://www.facebook.com/soltechsolutions2020?utm_source=sendinblue&utm_campaign=SOLTECH_Solutions___Company_Profile&utm_medium=email"><img alt="Facebook" border="0" hspace="0" vspace="0" style="vertical-align:top;" target="_blank" src="https://img.mailinblue.com/new_images/rnb/theme2/rnb_ico_fb.png"></a>
+            <a target="_blank" href="https://www.instagram.com/soltechsolutions_/?utm_source=sendinblue&utm_campaign=SOLTECH_Solutions___Company_Profile&utm_medium=email"><img alt="Instagram" border="0" hspace="0" vspace="0" style="vertical-align:top;" target="_blank" src="https://img.mailinblue.com/new_images/rnb/theme2/rnb_ico_ig.png"></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCBJRPMUIhjXYbH2TvyL5JZA/featured?utm_source=sendinblue&utm_campaign=SOLTECH_Solutions___Company_Profile&utm_medium=email"><img alt="YouTube" border="0" hspace="0" vspace="0" style="vertical-align:top;" target="_blank" src="https://img.mailinblue.com/new_images/rnb/theme2/rnb_ico_yt.png"></a>
+        </div>
+    </div>
+    
+</body>
+</html>
